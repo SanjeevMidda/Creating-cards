@@ -1,0 +1,29 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    gap:10px;
+}
+.frame {
+border:1px solid orange;
+border-radius: 10%;
+width: fit-content;
+}
+
+.block {
+background-color: orangered;
+width: 300px;
+height:300px;
+border-radius: 10%;
+margin: 20px;
+}
+
+.text {
+    margin-left: 20px;
+    
+}
